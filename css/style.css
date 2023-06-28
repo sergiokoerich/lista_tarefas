@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg--azulDark: #3aa2b5;
+    --bg--itens: #fff;
+    --bd-color: #1f5f9f;
+    --bt--mainColor: #2573c2;
+    --tx--color: #fff;
+    
+
+}
+
+body {
+    background: var(--bg--azulDark);
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--tx--color);
+    text-shadow: 2px 3px 2px #000000;
+}
+
+.main-section {
+    background: transparent;
+    max-width: 500px;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+  
+.add-section {
+    width: 100%;
+    background: var(--bg--itens);
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.add-section input, .add-section textarea {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: 10px auto;
+    border: 3px solid var(--bd-color);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-family: sans-serif;
+    align-items: center;
+}
+  
+.add-section button {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: 0px auto;
+    border: none;
+    outline: none;
+    background: var(--bt--mainColor);
+    color: var(--tx--color);
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.add-section button:hover {
+    box-shadow: 0 2px 2px 0 #ccc, 0 2px 3px 0 #ccc;
+    opacity: 0.7;
+}
+  
+.add-section button span {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+  
+#errorMes {
+    display: block;
+    background: #ff0000;
+    width: 95%;
+    margin: 0px auto;
+    padding: 10px;
+    height: 35px;
+}
+  
+.show-todo-section {
+    width: 100%;
+    background: #fff;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.todo-item {
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 #ccc;
+    border-radius: 5px;
+}
+
+.todo-item span {
+    display: inline-block;
+    height: 100%;
+    width: 42px;
+    padding: 6px 12px;
+    background-color: var(--bt--mainColor);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item span img {
+    width: 20px;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+  
+.todo-item h2 {
+    display: inline-block;
+    padding: 10px 0px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #555;
+}
+
+.todo-item p {
+    width: 85%;
+    padding: 5px 0 5px 10px;   
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #4e4e4e;
+}
+
+.todo-item input {
+    min-width: 20px;
+    min-height: 20px;
+}
+  
+.todo-item small {
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    color: #4e4e4e;
+    padding-left: px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.todo-item a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.todo-time {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.editar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button img {
+    width: 20px;
+    margin-top: 9px;
+}
+  
+.edit-button:hover {
+    opacity: 0.7;
+}
+  
+.edit-button:active {
+    opacity: 0.7;
+}
+  
+.remove-to-do {
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    padding: 0px 5px 8px 0px;
+    border-radius: 50%;
+    transition: background 1s;
+    cursor: pointer;
+}
+  
+.remove-to-do:hover {
+    background: rgb(151, 15, 15);
+}
+
+.edit-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: var(--bt--mainColor);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  
+.edit-button:hover {
+    background-color: ;
+}
+  
+.edit-button:active {
+    background-color: var(--bt--mainColor);
+}
+  
+.checked {
+    color: #079319 !important;
+    text-decoration: line-through;
+}
+  
+.todo-item input {
+    margin: 0px 5px;
+}
+  
+.empty {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #cccc;
+}
