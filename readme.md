@@ -20,10 +20,10 @@ Instalação
         5- Certifique-se de que o diretório js contenha o arquivo jquery-3.2.1.min.js.
         
 Uso<br/>
-    Abra o arquivo index.php em um navegador da web.
-    Na seção "Adicionar Tarefa", preencha o título, descrição e prazo de conclusão da tarefa e clique em "Adicionar".
-    A tarefa será exibida na lista de tarefas.
-    Você pode marcar uma tarefa como concluída clicando na caixa de seleção ao lado dela.
-    Para editar uma tarefa, clique no ícone de edição ao lado dela e preencha os novos detalhes no formulário de edição.
-    Para remover uma tarefa, clique no ícone de exclusão ao lado dela.
+    Abra o arquivo index.php em um navegador da web.<br/>
+    Na seção "Adicionar Tarefa", preencha o título, descrição e prazo de conclusão da tarefa e clique em "Adicionar".<br/>
+    A tarefa será exibida na lista de tarefas.<br/>
+    Você pode marcar uma tarefa como concluída clicando na caixa de seleção ao lado dela.<br/>
+    Para editar uma tarefa, clique no ícone de edição ao lado dela e preencha os novos detalhes no formulário de edição.<br/>
+    Para remover uma tarefa, clique no ícone de exclusão ao lado dela.<br/>
     As mensagens de erro e sucesso serão exibidas conforme necessário.
