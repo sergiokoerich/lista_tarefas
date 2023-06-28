@@ -1,13 +1,16 @@
 Lista de Tarefas
+<br/>
     Este é um aplicativo web simples para gerenciar uma lista de tarefas. Ele permite adicionar, editar, remover e marcar como concluídas as tarefas.
-
+<br/>
 Pré-requisitos
+<br/>
     Antes de executar o aplicativo, verifique se você possui os seguintes requisitos:
 
         PHP (versão 7.0 ou superior)
         MySQL (ou outro sistema de gerenciamento de banco de dados)
 
 Instalação
+<br/>
     Siga as etapas abaixo para configurar o aplicativo:
 
         1- Clone o repositório para o seu ambiente local.
@@ -16,7 +19,7 @@ Instalação
         4- Certifique-se de que o diretório css contenha o arquivo style.css.
         5- Certifique-se de que o diretório js contenha o arquivo jquery-3.2.1.min.js.
         
-Uso
+Uso<br/>
     Abra o arquivo index.php em um navegador da web.
     Na seção "Adicionar Tarefa", preencha o título, descrição e prazo de conclusão da tarefa e clique em "Adicionar".
     A tarefa será exibida na lista de tarefas.
